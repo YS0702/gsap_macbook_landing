@@ -1,11 +1,10 @@
-import React from 'react'
 import { navLinks } from '../constants'
 
 function Navbar() {
   return (
     <header>
         <nav>
-            <img src="/public/logo.svg" />
+            <img src="/logo.svg" />
 
             <ul>
                 {
@@ -19,10 +18,10 @@ function Navbar() {
 
             <div className='flex-center gap-3'>
                 <button>
-                    <img src="/public/search.svg" alt="Search" />
+                    <img src="/search.svg" alt="Search" />
                 </button>
                 <button>
-                    <img src="/public/cart.svg" alt="Cart" />
+                    <img src="/cart.svg" alt="Cart" />
                 </button>
             </div>
         </nav>
